@@ -1,3 +1,0 @@
-[submodule "opsworks-custom-cookbooks"]
-	path = opsworks-custom-cookbooks
-	url = git@github.com:CultConspiracy/opsworks-custom-cookbooks.git
