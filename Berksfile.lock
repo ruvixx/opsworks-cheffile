@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "newrelic": {
+      "locked_version": "0.5.5"
+    },
+    "papertrail-rsyslog": {
+      "locked_version": "1.1.1"
+    },
+    "whenever": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/freerunningtech/frt-opsworks-cookbooks.git",
+      "ref": "ae97e22733cf6f8cb68ba3ebd68cda3ee9e8f156",
+      "rel": "whenever"
+    },
+    "env-vars": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/ys/opsworks-cookbooks.git",
+      "ref": "7e115e6a30955c5fe8c6099a817886765d170ac1",
+      "rel": "env-vars"
+    },
+    "rails-assets": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/ys/opsworks-cookbooks.git",
+      "ref": "7e115e6a30955c5fe8c6099a817886765d170ac1",
+      "rel": "rails-assets"
+    },
+    "rsyslog": {
+      "locked_version": "1.5.0"
+    }
+  }
+}
