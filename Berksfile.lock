@@ -9,7 +9,7 @@
     "whenever": {
       "locked_version": "0.1.0",
       "git": "git://github.com/freerunningtech/frt-opsworks-cookbooks.git",
-      "ref": "ae97e22733cf6f8cb68ba3ebd68cda3ee9e8f156",
+      "ref": "a4dbf93a877fb1cb81303f4ac965103b417edd22",
       "rel": "whenever"
     },
     "env-vars": {

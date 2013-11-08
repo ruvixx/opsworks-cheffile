@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mv opsworks-custom-cookbooks/.git .git.tmp
+berks --path opsworks-custom-cookbooks
+mv .git.tmp opsworks-custom-cookbooks/.git

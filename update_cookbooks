@@ -1,1 +1,7 @@
-BERKSHELF_EXT_ONLY=non_recommends_depends berks_ext --path ../opsworks-custom-cookbooks
+#!/bin/sh
+
+echo "Updating versions..."
+berks update
+echo "-----------------------------"
+echo "Vendoring..."
+./install_cookbooks

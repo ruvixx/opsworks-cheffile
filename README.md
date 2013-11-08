@@ -7,4 +7,7 @@ See our [opsworks-custom-cookboks](git@github.com:CultConspiracy/opsworks-custom
 1. Clone this repo
 1. Clone your opsworks-custom-cookbooks repo in at the same level in the folder hierarchy as this repo (meaning it will put cookbooks in `../opsworks-custom-cookbooks`)
 1. `bundle`
-1. `./update_cookbooks`
+1. `./install_cookbooks`
+
+
+If you want to update the versions of any of the cookbooks, just `./update_cookbooks`

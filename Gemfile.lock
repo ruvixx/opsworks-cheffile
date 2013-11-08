@@ -1,20 +1,8 @@
 GIT
-  remote: git://github.com/swrobel/berkshelf_ext.git
-  revision: d32cdab2b6c8d2119522c7667f5a5e219f161e54
+  remote: git://github.com/swrobel/berkshelf.git
+  revision: 99353e98c547fa48635fe369cb876eadbaf5be90
+  branch: skip-recommends
   specs:
-    berkshelf_ext (2.0.0)
-      berkshelf (~> 2.0.0)
-
-GEM
-  remote: https://rubygems.org/
-  specs:
-    activesupport (3.2.15)
-      i18n (~> 0.6, >= 0.6.4)
-      multi_json (~> 1.0)
-    addressable (2.3.5)
-    akami (1.2.0)
-      gyoku (>= 0.4.0)
-      nokogiri (>= 1.4.0)
     berkshelf (2.0.10)
       activesupport (~> 3.2.0)
       addressable (~> 2.3.4)
@@ -28,6 +16,17 @@ GEM
       ridley (~> 1.5.0)
       solve (>= 0.5.0)
       thor (~> 0.18.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.15)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    addressable (2.3.5)
+    akami (1.2.0)
+      gyoku (>= 0.4.0)
+      nokogiri (>= 1.4.0)
     buff-config (0.4.0)
       buff-extensions (~> 0.3)
       varia_model (~> 0.1)
@@ -131,5 +130,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  berkshelf
-  berkshelf_ext!
+  berkshelf!
