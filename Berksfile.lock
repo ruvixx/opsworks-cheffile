@@ -20,7 +20,7 @@
     "opsworks-rails-precompile": {
       "locked_version": "1.0.0",
       "git": "git://github.com/swrobel/opsworks-rails-precompile.git",
-      "ref": "bd60214e59ad33fd092893f616b6db66ff39f868"
+      "ref": "f402527a0a7043161a42644a76f8f771c35a88ba"
     },
     "rsyslog": {
       "locked_version": "1.5.0"
