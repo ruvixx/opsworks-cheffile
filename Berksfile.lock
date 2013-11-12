@@ -18,11 +18,10 @@
       "ref": "7e115e6a30955c5fe8c6099a817886765d170ac1",
       "rel": "env-vars"
     },
-    "rails-assets": {
-      "locked_version": "0.1.0",
-      "git": "git://github.com/ys/opsworks-cookbooks.git",
-      "ref": "7e115e6a30955c5fe8c6099a817886765d170ac1",
-      "rel": "rails-assets"
+    "opsworks-rails-precompile": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/swrobel/opsworks-rails-precompile.git",
+      "ref": "bd60214e59ad33fd092893f616b6db66ff39f868"
     },
     "rsyslog": {
       "locked_version": "1.5.0"
