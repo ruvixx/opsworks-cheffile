@@ -12,11 +12,10 @@
       "ref": "a4dbf93a877fb1cb81303f4ac965103b417edd22",
       "rel": "whenever"
     },
-    "env-vars": {
-      "locked_version": "0.1.0",
-      "git": "git://github.com/ys/opsworks-cookbooks.git",
-      "ref": "7e115e6a30955c5fe8c6099a817886765d170ac1",
-      "rel": "env-vars"
+    "opsworks_custom_env": {
+      "locked_version": "0.3.0",
+      "git": "git://github.com/joeyAghion/opsworks_custom_env.git",
+      "ref": "0c353cf586b60d72e076d3e738a66ebe640f5e2c"
     },
     "opsworks-rails-precompile": {
       "locked_version": "1.0.0",
