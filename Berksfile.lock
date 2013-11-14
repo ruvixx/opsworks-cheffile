@@ -15,12 +15,7 @@
     "opsworks_custom_env": {
       "locked_version": "0.3.0",
       "git": "git://github.com/joeyAghion/opsworks_custom_env.git",
-      "ref": "0c353cf586b60d72e076d3e738a66ebe640f5e2c"
-    },
-    "opsworks-rails-precompile": {
-      "locked_version": "1.0.0",
-      "git": "git://github.com/swrobel/opsworks-rails-precompile.git",
-      "ref": "f402527a0a7043161a42644a76f8f771c35a88ba"
+      "ref": "48832cc97b6b47e6a58e75c7e35fd6e2e006a70f"
     },
     "rsyslog": {
       "locked_version": "1.5.0"
