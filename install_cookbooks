@@ -2,6 +2,6 @@
 
 mv opsworks-custom-cookbooks/.git .git.tmp
 mv opsworks-custom-cookbooks/unicorn .
-berks --path opsworks-custom-cookbooks
+bin/berks --path opsworks-custom-cookbooks
 mv .git.tmp opsworks-custom-cookbooks/.git
 mv unicorn opsworks-custom-cookbooks/
