@@ -3,9 +3,6 @@
     "newrelic": {
       "locked_version": "0.5.5"
     },
-    "papertrail-rsyslog": {
-      "locked_version": "1.1.1"
-    },
     "whenever": {
       "locked_version": "0.1.0",
       "git": "git://github.com/freerunningtech/frt-opsworks-cookbooks.git",
@@ -16,9 +13,6 @@
       "locked_version": "0.3.0",
       "git": "git://github.com/joeyAghion/opsworks_custom_env.git",
       "ref": "48832cc97b6b47e6a58e75c7e35fd6e2e006a70f"
-    },
-    "rsyslog": {
-      "locked_version": "1.5.0"
     }
   }
 }
