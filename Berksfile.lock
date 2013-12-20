@@ -13,6 +13,12 @@
       "locked_version": "0.3.0",
       "git": "git://github.com/joeyAghion/opsworks_custom_env.git",
       "ref": "48832cc97b6b47e6a58e75c7e35fd6e2e006a70f"
+    },
+    "sidekiq": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/CultConspiracy/polydice-cookbooks.git",
+      "ref": "c1618167cb6af56d86d487d89678a33ec22b3002",
+      "rel": "sidekiq"
     }
   }
 }
