@@ -19,6 +19,17 @@
       "git": "git://github.com/CultConspiracy/polydice-cookbooks.git",
       "ref": "34a2a9763e4fcbdad811d86ccd941accbc0a6571",
       "rel": "sidekiq"
+    },
+    "bprobe": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/boundary/bprobe_cookbook.git",
+      "ref": "957c20a8441d73b988cd10775c19ce5cef85ef13"
+    },
+    "yum": {
+      "locked_version": "3.0.4"
+    },
+    "apt": {
+      "locked_version": "2.3.4"
     }
   }
 }
