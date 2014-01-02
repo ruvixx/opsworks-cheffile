@@ -1,12 +1,12 @@
 {
   "sources": {
     "newrelic": {
-      "locked_version": "0.5.5"
+      "locked_version": "0.5.6"
     },
     "whenever": {
       "locked_version": "0.1.0",
       "git": "git://github.com/freerunningtech/frt-opsworks-cookbooks.git",
-      "ref": "a4dbf93a877fb1cb81303f4ac965103b417edd22",
+      "ref": "1e26fd2be1f1eb26159ac532b58ac430967ed37c",
       "rel": "whenever"
     },
     "opsworks_custom_env": {
@@ -17,7 +17,7 @@
     "sidekiq": {
       "locked_version": "0.1.0",
       "git": "git://github.com/CultConspiracy/polydice-cookbooks.git",
-      "ref": "c1618167cb6af56d86d487d89678a33ec22b3002",
+      "ref": "34a2a9763e4fcbdad811d86ccd941accbc0a6571",
       "rel": "sidekiq"
     }
   }
