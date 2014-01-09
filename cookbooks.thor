@@ -7,14 +7,23 @@ class Cookbooks < Thor
   include Archive::Tar
   include Thor::Actions
 
-  desc 'install', 'Install cookbooks from Berksfile'
+  desc 'install', 'Install cookbooks from Cheffile'
+  option :package, type: :boolean, default: false
   def install
-    run 'bundle exec berks install --path cookbooks'
+    run 'bundle exec librarian-chef install'
+
+    if options[:package]
+      if !package
+        raise Thor::Error, "Cookbook packaging failed; aborting upload."
+      end
+
+      puts
+    end
   end
 
-  desc 'update', 'Update cookbook versions from Berksfile'
+  desc 'update', 'Update cookbook versions from Cheffile'
   def update
-    run 'bundle exec berks update'
+    run 'bundle exec librarian-chef update'
   end
 
   desc 'package', 'Package cookbooks into a tgz file'

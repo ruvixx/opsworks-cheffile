@@ -1,0 +1,7 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'newrelic'
+cookbook 'whenever', github: 'freerunningtech/frt-opsworks-cookbooks', path: 'whenever'
+cookbook 'opsworks_custom_env', github: 'joeyAghion/opsworks_custom_env'
+cookbook 'sidekiq', github: 'CultConspiracy/polydice-cookbooks', path: 'sidekiq'
+cookbook 'bprobe', github: 'boundary/bprobe_cookbook'
