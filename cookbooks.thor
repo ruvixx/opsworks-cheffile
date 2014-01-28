@@ -38,11 +38,11 @@ class Cookbooks < Thor
     Minitar.pack(package, tgz)
   end
 
-  desc 'upload ACCESS_KEY SECRET_ACCESS_KEY', 'Upload cookbooks to S3'
+  desc 'upload ACCESS_KEY SECRET_KEY BUCKET [REGION]', 'Upload cookbooks to S3 (default region us-east-1)'
   option :install, type: :boolean, default: false
   option :package, type: :boolean, default: true
-  def upload(access_key, secret_access_key)
-    save_credentials(access_key, secret_access_key)
+  def upload(access_key, secret_access_key, bucket, region='us-east-1')
+    save_credentials(access_key, secret_access_key, bucket, region)
 
     if options[:install]
       if !install
@@ -72,9 +72,11 @@ class Cookbooks < Thor
   end
 
   no_tasks do
-    def save_credentials(access_key, secret_access_key)
+    def save_credentials(access_key, secret_access_key, bucket, region)
       @access_key = access_key
       @secret_access_key = secret_access_key
+      @bucket = bucket
+      @region = region
     end
 
     def connection
@@ -82,12 +84,12 @@ class Cookbooks < Thor
         provider: 'AWS',
         aws_access_key_id: @access_key,
         aws_secret_access_key: @secret_access_key,
-        region: 'us-west-2'
+        region: @region
       })
     end
 
     def directory
-      connection.directories.get('cult-cookbooks')
+      connection.directories.get(@bucket)
     end
 
     def cookbook_tarball_name
