@@ -30,10 +30,8 @@ GIT
   specs:
     whenever (0.1.0)
 
-GIT
-  remote: https://github.com/joeyAghion/opsworks_custom_env
-  ref: master
-  sha: 48832cc97b6b47e6a58e75c7e35fd6e2e006a70f
+PATH
+  remote: ~/Code/opsworks_custom_env
   specs:
     opsworks_custom_env (0.3.0)
 
