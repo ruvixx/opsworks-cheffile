@@ -34,9 +34,27 @@ GIT
   specs:
     whenever (0.1.0)
 
+GIT
+  remote: https://github.com/swrobel/opsworks-cookbooks
+  path: nginx
+  ref: master-chef-11.10
+  sha: 76234001a1f35f2851da1317704f0ba6802e820b
+  specs:
+    nginx (1.0.0)
+
+GIT
+  remote: https://github.com/swrobel/opsworks-cookbooks
+  path: unicorn
+  ref: master-chef-11.10
+  sha: 76234001a1f35f2851da1317704f0ba6802e820b
+  specs:
+    unicorn (1.0.0)
+
 DEPENDENCIES
   newrelic (>= 0)
+  nginx (>= 0)
   opsworks_custom_env (>= 0)
   sidekiq (>= 0)
+  unicorn (>= 0)
   whenever (>= 0)
 

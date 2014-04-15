@@ -3,4 +3,3 @@
 /vendor/bundle
 /bin
 /tmp
-!/cookbooks/unicorn
