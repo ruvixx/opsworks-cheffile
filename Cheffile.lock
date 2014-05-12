@@ -1,7 +1,10 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    apt (2.3.10)
     build-essential (2.0.0)
+    mosh (0.3.0)
+      apt (>= 0.0.0)
     newrelic (1.0.1)
       python (>= 0.0.0)
     python (1.4.6)
@@ -51,6 +54,7 @@ GIT
     unicorn (1.0.0)
 
 DEPENDENCIES
+  mosh (>= 0)
   newrelic (>= 0)
   nginx (>= 0)
   opsworks_custom_env (>= 0)
