@@ -1,64 +1,67 @@
 SITE
-  remote: http://community.opscode.com/api/v1
+  remote: https://supermarket.getchef.com/api/v1
   specs:
-    apt (2.3.10)
-    build-essential (2.0.0)
+    apt (2.6.0)
     mosh (0.3.0)
       apt (>= 0.0.0)
-    newrelic (1.0.1)
-      python (>= 0.0.0)
-    python (1.4.6)
-      build-essential (>= 0.0.0)
-      yum-epel (>= 0.0.0)
-    yum (3.1.6)
-    yum-epel (0.3.4)
-      yum (~> 3.0)
-
-GIT
-  remote: https://github.com/CultConspiracy/opsworks_custom_env
-  ref: master
-  sha: 1c0ce60bbfdc7d967e4f62c051f6dcea71bb1476
-  specs:
-    opsworks_custom_env (0.3.0)
-
-GIT
-  remote: https://github.com/CultConspiracy/polydice-cookbooks
-  path: sidekiq
-  ref: master
-  sha: 34a2a9763e4fcbdad811d86ccd941accbc0a6571
-  specs:
-    sidekiq (0.1.0)
+    newrelic-sysmond (1.4.1)
+      apt (>= 1.9.2)
+      yum (>= 3.0)
+    yum (3.4.0)
 
 GIT
   remote: https://github.com/freerunningtech/frt-opsworks-cookbooks
   path: whenever
   ref: master
-  sha: a042a0b7d1e351eca3f3e73d032fe660d88100c7
+  sha: 152ec4c6e9eed3fef394bad27f900d6581b8936a
   specs:
     whenever (0.1.0)
 
 GIT
-  remote: https://github.com/swrobel/opsworks-cookbooks
-  path: nginx
-  ref: master-chef-11.10
-  sha: 76234001a1f35f2851da1317704f0ba6802e820b
+  remote: https://github.com/ruvixx/cookbooks
+  path: socks
+  ref: master
+  sha: 17119b940851b7cd21e7098da7d44fc3096da61b
   specs:
-    nginx (1.0.0)
+    socks (1.0.0)
 
 GIT
-  remote: https://github.com/swrobel/opsworks-cookbooks
+  remote: https://github.com/ruvixx/cookbooks
   path: unicorn
-  ref: master-chef-11.10
-  sha: 76234001a1f35f2851da1317704f0ba6802e820b
+  ref: master
+  sha: 17119b940851b7cd21e7098da7d44fc3096da61b
   specs:
     unicorn (1.0.0)
 
+GIT
+  remote: https://github.com/ruvixx/opsworks_custom_env
+  ref: master
+  sha: 65c30f7d4f40793b60d869c85a81f3359cf0aa82
+  specs:
+    opsworks_custom_env (0.3.0)
+
+GIT
+  remote: https://github.com/ruvixx/polydice-cookbooks
+  path: sidekiq
+  ref: master
+  sha: 3b7a7009b790c2208970ca48469bdb12cda46319
+  specs:
+    sidekiq (0.1.0)
+
+GIT
+  remote: https://github.com/shlomoswidler/awscli
+  ref: master
+  sha: 609607115a20b718c222bae1f4ae1c09efde3e2a
+  specs:
+    awscli (0.4.0)
+
 DEPENDENCIES
+  awscli (>= 0)
   mosh (>= 0)
-  newrelic (>= 0)
-  nginx (>= 0)
+  newrelic-sysmond (~> 1.4.0)
   opsworks_custom_env (>= 0)
   sidekiq (>= 0)
+  socks (>= 0)
   unicorn (>= 0)
   whenever (>= 0)
 

@@ -1,9 +1,13 @@
-site "http://community.opscode.com/api/v1"
+#site "http://community.opscode.com/api/v1"
+#site "https://cookbooks.opscode.com/api/v1"
+site "https://supermarket.getchef.com/api/v1"
 
-cookbook 'nginx', github: 'swrobel/opsworks-cookbooks', path: 'nginx', ref: 'master-chef-11.10'
-cookbook 'unicorn', github: 'swrobel/opsworks-cookbooks', path: 'unicorn', ref: 'master-chef-11.10'
-cookbook 'newrelic'
+#cookbook 'nginx', github: 'swrobel/opsworks-cookbooks', path: 'nginx', ref: 'master-chef-11.10'
+cookbook 'unicorn', github: 'ruvixx/cookbooks', path: 'unicorn'
+cookbook 'newrelic-sysmond', '~> 1.4.0'
 cookbook 'whenever', github: 'freerunningtech/frt-opsworks-cookbooks', path: 'whenever'
-cookbook 'opsworks_custom_env', github: 'CultConspiracy/opsworks_custom_env'
-cookbook 'sidekiq', github: 'CultConspiracy/polydice-cookbooks', path: 'sidekiq'
+cookbook 'awscli', github: 'shlomoswidler/awscli'
+cookbook 'opsworks_custom_env', github: 'ruvixx/opsworks_custom_env'
+cookbook 'sidekiq', github: 'ruvixx/polydice-cookbooks', path: 'sidekiq'
+cookbook 'socks', github: 'ruvixx/cookbooks', path: 'socks'
 cookbook 'mosh'
