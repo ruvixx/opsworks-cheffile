@@ -9,5 +9,6 @@ cookbook 'whenever', github: 'freerunningtech/frt-opsworks-cookbooks', path: 'wh
 cookbook 'awscli', github: 'shlomoswidler/awscli'
 cookbook 'opsworks_custom_env', github: 'ruvixx/opsworks_custom_env'
 cookbook 'sidekiq', github: 'ruvixx/polydice-cookbooks', path: 'sidekiq'
+cookbook 'phantomjs', github: 'ruvixx/phantomjs'
 cookbook 'socks', github: 'ruvixx/cookbooks', path: 'socks'
 cookbook 'mosh'
