@@ -2,6 +2,8 @@ SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
     apt (2.6.0)
+    java (1.36.0)
+      apt (>= 0.0.0)
     mosh (0.3.0)
       apt (>= 0.0.0)
     newrelic-sysmond (1.4.1)
@@ -41,6 +43,14 @@ GIT
     opsworks_custom_env (0.3.0)
 
 GIT
+  remote: https://github.com/ruvixx/phantomjs
+  ref: master
+  sha: e3a3763b424eb3727c06f44b157f3be308badf0d
+  specs:
+    phantomjs (0.1.0)
+      apt (>= 0.0.0)
+
+GIT
   remote: https://github.com/ruvixx/polydice-cookbooks
   path: sidekiq
   ref: master
@@ -57,9 +67,11 @@ GIT
 
 DEPENDENCIES
   awscli (>= 0)
+  java (>= 0)
   mosh (>= 0)
   newrelic-sysmond (~> 1.4.0)
   opsworks_custom_env (>= 0)
+  phantomjs (>= 0)
   sidekiq (>= 0)
   socks (>= 0)
   unicorn (>= 0)
