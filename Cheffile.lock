@@ -10,6 +10,14 @@ SITE
     yum (3.10.0)
 
 GIT
+  remote: https://github.com/ruvixx/opsworks-cookbooks
+  path: unicorn
+  ref: release-chef-11.4
+  sha: 78a0fe0cda6efcb12fc3198319a39a3b671d46fe
+  specs:
+    unicorn (1.0.0)
+
+GIT
   remote: https://github.com/ruvixx/opsworks-cookbooks-1
   path: aws-ubuntu
   ref: master
@@ -55,4 +63,5 @@ DEPENDENCIES
   opsworks_custom_env (>= 0)
   phantomjs (>= 0)
   sidekiq (>= 0)
+  unicorn (>= 0)
 
