@@ -1,39 +1,21 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    apt (2.6.0)
-    java (1.36.0)
+    apt (2.9.2)
+    java (1.39.0)
       apt (>= 0.0.0)
-    mosh (0.3.0)
-      apt (>= 0.0.0)
-    newrelic-sysmond (1.4.1)
+    newrelic-sysmond (2.0.0)
       apt (>= 1.9.2)
       yum (>= 3.0)
-    yum (3.4.0)
+    yum (3.10.0)
 
 GIT
-  remote: https://github.com/freerunningtech/frt-opsworks-cookbooks
-  path: whenever
+  remote: https://github.com/ruvixx/opsworks-cookbooks-1
+  path: aws-ubuntu
   ref: master
-  sha: 152ec4c6e9eed3fef394bad27f900d6581b8936a
+  sha: 675413f4181851dd7c4c534080db52dfc84d20d8
   specs:
-    whenever (0.1.0)
-
-GIT
-  remote: https://github.com/ruvixx/cookbooks
-  path: socks
-  ref: master
-  sha: 17119b940851b7cd21e7098da7d44fc3096da61b
-  specs:
-    socks (1.0.0)
-
-GIT
-  remote: https://github.com/ruvixx/cookbooks
-  path: unicorn
-  ref: master
-  sha: 17119b940851b7cd21e7098da7d44fc3096da61b
-  specs:
-    unicorn (1.0.0)
+    aws-ubuntu (1.0.0)
 
 GIT
   remote: https://github.com/ruvixx/opsworks_custom_env
@@ -54,26 +36,23 @@ GIT
   remote: https://github.com/ruvixx/polydice-cookbooks
   path: sidekiq
   ref: master
-  sha: 3b7a7009b790c2208970ca48469bdb12cda46319
+  sha: 8c9c5e7027ce1cae2355cf50accb9c180d1c83f6
   specs:
     sidekiq (0.1.0)
 
 GIT
   remote: https://github.com/shlomoswidler/awscli
   ref: master
-  sha: 609607115a20b718c222bae1f4ae1c09efde3e2a
+  sha: 21f962ad88c2e4b6f17ae73c239b5c60ab050134
   specs:
     awscli (0.4.0)
 
 DEPENDENCIES
+  aws-ubuntu (>= 0)
   awscli (>= 0)
   java (>= 0)
-  mosh (>= 0)
-  newrelic-sysmond (~> 1.4.0)
+  newrelic-sysmond (~> 2.0.0)
   opsworks_custom_env (>= 0)
   phantomjs (>= 0)
   sidekiq (>= 0)
-  socks (>= 0)
-  unicorn (>= 0)
-  whenever (>= 0)
 
