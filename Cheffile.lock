@@ -1,17 +1,13 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    apt (2.8.2)
-    mosh (0.4.0)
+    apt (2.9.2)
+    java (1.39.0)
       apt (>= 0.0.0)
-      yum (>= 0.0.0)
-      yum-epel (>= 0.0.0)
     newrelic-sysmond (2.0.0)
       apt (>= 1.9.2)
       yum (>= 3.0)
-    yum (3.7.1)
-    yum-epel (0.6.3)
-      yum (~> 3.2)
+    yum (3.10.0)
 
 GIT
   remote: https://github.com/ruvixx/opsworks-cookbooks-1
@@ -54,7 +50,7 @@ GIT
 DEPENDENCIES
   aws-ubuntu (>= 0)
   awscli (>= 0)
-  mosh (>= 0)
+  java (>= 0)
   newrelic-sysmond (~> 2.0.0)
   opsworks_custom_env (>= 0)
   phantomjs (>= 0)
