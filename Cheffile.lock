@@ -13,7 +13,7 @@ GIT
   remote: https://github.com/ruvixx/opsworks-cookbooks
   path: unicorn
   ref: release-chef-11.4
-  sha: 78a0fe0cda6efcb12fc3198319a39a3b671d46fe
+  sha: e7e1e207d75319230b1bb425d771d5762d56cabc
   specs:
     unicorn (1.0.0)
 
@@ -44,7 +44,7 @@ GIT
   remote: https://github.com/ruvixx/polydice-cookbooks
   path: sidekiq
   ref: master
-  sha: 8c9c5e7027ce1cae2355cf50accb9c180d1c83f6
+  sha: f72aaca9a2560ddf598a459bb8bcd5536e16e399
   specs:
     sidekiq (0.1.0)
 
