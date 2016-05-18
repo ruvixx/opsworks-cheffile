@@ -44,7 +44,7 @@ GIT
 GIT
   remote: https://github.com/ruvixx/phantomjs
   ref: master
-  sha: 5ee20644f68bd2ea734009798a17eb8ecf80fc91
+  sha: a082821db797768085e27eee1a47a3aa830fc65d
   specs:
     phantomjs (0.2.1)
 
