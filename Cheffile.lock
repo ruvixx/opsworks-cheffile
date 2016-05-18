@@ -1,7 +1,7 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    al_agents (1.3.2)
+    al_agents (1.3.4)
       line (>= 0.0.0)
       rsyslog (= 2.2.0)
       selinux_policy (>= 0.0.0)
@@ -64,7 +64,7 @@ GIT
     awscli (0.4.0)
 
 DEPENDENCIES
-  al_agents (~> 1.3.2)
+  al_agents (>= 0)
   aws-ubuntu (>= 0)
   awscli (>= 0)
   imagemagick (>= 0)
