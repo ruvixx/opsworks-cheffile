@@ -10,4 +10,5 @@ cookbook 'aws-ubuntu', github: 'ruvixx/opsworks-cookbooks-1', path: 'aws-ubuntu'
 cookbook 'al_agents', '~> 1.3.4'
 cookbook 'remote_syslog2', '~> 0.3.0'
 cookbook 'imagemagick', github: 'ruvixx/cookbooks', path: 'imagemagick'
-
+cookbook 'apt', '= 3.0.0'
+cookbook 'build-essential', '= 3.2.0'
