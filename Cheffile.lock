@@ -1,7 +1,7 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    al_agents (1.3.4)
+    al_agents (1.3.6)
       line (>= 0.0.0)
       rsyslog (= 2.2.0)
       selinux_policy (>= 0.0.0)
@@ -11,7 +11,7 @@ SITE
     chef_handler (1.4.0)
     homebrew (2.1.0)
       build-essential (>= 2.1.2)
-    java (1.41.0)
+    java (1.42.0)
       apt (>= 0.0.0)
       homebrew (>= 0.0.0)
       windows (>= 0.0.0)
@@ -63,7 +63,7 @@ GIT
   remote: https://github.com/ruvixx/polydice-cookbooks
   path: sidekiq
   ref: master
-  sha: 462ea7da7c1707f12a465df16f429286c3c6cd52
+  sha: 18106a447fc8e7ff09302442d7fdbf81c3807ba4
   specs:
     sidekiq (0.1.0)
 
