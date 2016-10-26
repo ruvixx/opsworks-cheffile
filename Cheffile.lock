@@ -31,9 +31,9 @@ SITE
 
 GIT
   remote: https://github.com/ruvixx/cookbooks
-  path: imagemagick
+  path: cookbooks/imagemagick
   ref: master
-  sha: 9bc4d40fadb02d6acf6cb65fe9287f61ab26c0d5
+  sha: dda200a5275b145925af9cb6a1ae57de8600f000
   specs:
     imagemagick (0.1.0)
 
